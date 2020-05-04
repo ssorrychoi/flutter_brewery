@@ -2,7 +2,7 @@
 
 ---
 
-`I am rich` Project
+`YNG & RICH` Project
 
 1. Creating a New Flutter Project from Scratch
 
