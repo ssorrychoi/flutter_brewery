@@ -61,5 +61,3 @@
 - `open -a Simulator` 로 명령어로 입력해도 되고 simulator를 실행하면된다.
 
 - 같은 소스코드로 IOS, AOS 두개의 OS에 running 할 수 있다.
-
-- 
