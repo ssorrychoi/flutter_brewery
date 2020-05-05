@@ -91,4 +91,5 @@ assets을 이용해 img를 추가하는 방법
 
 4. How to Add App Icons to the IOS and Android Projects
 
-https://appicon.co/
+App icon : https://appicon.co/
+
