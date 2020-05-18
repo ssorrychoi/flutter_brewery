@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget_of_the_week/screen/first_week.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,11 +19,29 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Text('This is Widget of the week')),
+      appBar: AppBar(
+        title: Text('Widget of the Week'),
+      ),
+      body: SafeArea(
+          child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Center(child: Text('This is Widget of the week')),
+          FlatButton(
+            child: Text('1st week Start'),
+            color: Colors.red,
+            onPressed: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => FirstWeek()));
+            },
+          )
+        ],
+      )),
     );
   }
 }
