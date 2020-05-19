@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widget_of_the_week/screen/first_week.dart';
+import 'package:widget_of_the_week/screen/second_class.dart';
 
 void main() {
   runApp(MyApp());
@@ -38,6 +39,17 @@ class MainPage extends StatelessWidget {
             onPressed: () {
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => FirstWeek()));
+            },
+          ),
+          SizedBox(
+            width: 100,
+          ),
+          FlatButton(
+            child: Text('2nd Class'),
+            color: Colors.yellow,
+            onPressed: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => SecondClass()));
             },
           )
         ],
