@@ -92,3 +92,18 @@ class MyApp extends StatelessWidget {
 
 
 3. `Consumer` 와 `Provider.of<Counter>(context)` 로 접근해서 사용이 가능하다.
+
+```dart
+/// Consumer 방식
+Consumer<Counter>(
+  builder: (context, value, child) => Text(
+    value.getCount().toString(),
+    style: Theme.of(context).textTheme.headline4,
+  )),
+
+/// Provider.of(context) 방식
+Text(Provider.of<Counter>(context).getCount().toString(),
+     style: Theme.of(context).textTheme.headline4),
+```
+
+끝!
