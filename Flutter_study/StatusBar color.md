@@ -1,4 +1,4 @@
-## StatusBar 색상 
+## StatusBar 색상 설정 방법
 
 ---
 
