@@ -12,3 +12,4 @@
 - Section5 끝.
 - [운동하기]앱 컨셉.
 - 처음에 Research 해야함. 사전 조사가 필요.
+- 1day 1commit
