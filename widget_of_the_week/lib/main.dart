@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:widget_of_the_week/screen/first_week.dart';
 import 'package:widget_of_the_week/screen/page_view_ex.dart';
 import 'package:widget_of_the_week/screen/second_class.dart';
+import 'package:widget_of_the_week/screen/sliver_list.dart';
 import 'package:widget_of_the_week/screen/sliverappbar.dart';
 import 'package:widget_of_the_week/screen/table.dart';
 
@@ -100,6 +101,20 @@ class MainPage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => SliverAppBarEx()));
+              },
+            ),
+          ),
+          SizedBox(
+            width: 100,
+          ),
+          Container(
+            width: 300,
+            child: FlatButton(
+              child: Text('SliverList'),
+              color: Colors.deepPurple,
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => SliverListEx()));
               },
             ),
           ),
