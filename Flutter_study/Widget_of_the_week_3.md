@@ -108,3 +108,28 @@ class SliverListEx extends StatelessWidget {
 
 ```
 
+
+
+## 13. FadeInImage
+
+https://api.flutter.dev/flutter/widgets/FadeInImage-class.html
+
+- 네트워크에서 이미지를 가져올때, 시간이 걸린다.
+- 시간이 걸릴때, 다운로드되길 기다리는 것이 아니라 `FadeInImage`를 통해 자연스럽게 연결해준다.
+
+```dart
+class _FadeInImageExState extends State<FadeInImageEx> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text('Fade In Image'),),
+      body: FadeInImage.assetNetwork(
+        fadeInCurve: Curves.bounceIn,
+        placeholder: 'assets/images/loading.jpg',
+        image: 'https://blog.codemagic.io/uploads/Codemagic-io_Blog_Flutter-Versus-Other-Mobile-Development-Frameworks_2.png',
+      ),
+    );
+  }
+}
+```
+

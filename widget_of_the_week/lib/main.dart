@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget_of_the_week/screen/fade_in_image.dart';
 import 'package:widget_of_the_week/screen/first_week.dart';
 import 'package:widget_of_the_week/screen/page_view_ex.dart';
 import 'package:widget_of_the_week/screen/second_class.dart';
@@ -115,6 +116,20 @@ class MainPage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => SliverListEx()));
+              },
+            ),
+          ),
+          SizedBox(
+            width: 100,
+          ),
+          Container(
+            width: 300,
+            child: FlatButton(
+              child: Text('FadeInImage'),
+              color: Colors.lightGreenAccent,
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => FadeInImageEx()));
               },
             ),
           ),
