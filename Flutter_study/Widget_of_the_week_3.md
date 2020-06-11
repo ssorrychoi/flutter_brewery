@@ -143,3 +143,10 @@ https://api.flutter.dev/flutter/widgets/StreamBuilder-class.html
 - 특정 어떤 값을 계속 바라보고 있다가, 변경이 되거나 값이 들어오면 변경시켜주는 것이다.
 - 현재, BLoC패턴보단 Provider를 구글에서 밀고 있으므로 생략한다.
 
+
+
+## 15. InheritedModel
+
+https://api.flutter.dev/flutter/widgets/InheritedModel-class.html
+
+- 이것도 state 관리 방법이다.
