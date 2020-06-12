@@ -150,3 +150,22 @@ https://api.flutter.dev/flutter/widgets/StreamBuilder-class.html
 https://api.flutter.dev/flutter/widgets/InheritedModel-class.html
 
 - 이것도 state 관리 방법이다.
+
+
+
+## 16. ClipRRect
+
+https://api.flutter.dev/flutter/widgets/ClipRRect-class.html
+
+- 직사각형 위젯의 테두리를 둥글게 만들어 주는 위젯이다.
+- 이미지나, 각진 버튼 등에 사용될 수 있다.
+
+```dart
+ClipRRect(
+  borderRadius: BorderRadius.circular(20),
+  child: Image(image: AssetImage('assets/images/dtla.jpg'),)),
+ClipOval(
+  child: Image(image: AssetImage('assets/images/dtla.jpg'),)
+),
+```
+

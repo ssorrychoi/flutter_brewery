@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget_of_the_week/screen/clip_r_rect.dart';
 import 'package:widget_of_the_week/screen/fade_in_image.dart';
 import 'package:widget_of_the_week/screen/first_week.dart';
 import 'package:widget_of_the_week/screen/page_view_ex.dart';
@@ -133,6 +134,21 @@ class MainPage extends StatelessWidget {
               },
             ),
           ),
+          SizedBox(
+            width: 100,
+          ),
+          Container(
+            width: 300,
+            child: FlatButton(
+              child: Text('ClipRRect'),
+              color: Colors.lightBlueAccent,
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => RoundedImage()));
+              },
+            ),
+          ),
+
         ],
       )),
     );
