@@ -169,3 +169,46 @@ ClipOval(
 ),
 ```
 
+
+
+## 17. Hero
+
+https://flutter.dev/docs/development/ui/animations/hero-animations
+
+> ### What you'll Learn
+>
+> - hero( ) 는 스크린들 사이에 있는 파일을 위젯에 보낸다.
+> - Flutter의 Hero 위젯을 사용함으로써 hero 애니메이션을 만든다.
+> - 하나의 스크린에서 다른 곳으로 hero를 날린다.
+> - 한 스크린에서 다른 스크린으로 날아가는 동안 타원형에서 사각형으로 hero의 모양의 변화를 준다.
+> - 플러터에서 Hero 위젯은 흔히 `shared element transitions` 이나 `shared element animations`로 알려져있다.
+
+아마도 `Hero` 애니메이션을 여러번 봤을 것이다. 예를 들면, 판매하는 물건의 대표 썸네일 리스트가 뿌려져 있는 화면이다. 물건을 클릭하면 "Buy"버튼과 더 자세한 내용이 새로운 화면에 날아간다. 한 화면에서 다른 화면으로 이미지가 날아가는 것을 플러터에서 `hero animation` 이라고 부르는데, 비록 같은 동작은 가끔 `shared element transition` 이라고 지칭하기도 한다.
+
+> 예시)
+>
+> - Standard hero animation
+> - Radial hero animation
+
+### Standard hero animations
+
+standard hero animation은 hero를 하나의 라우트에서 새로운 라이트로 날리는데 주로 다른 사이즈로 다른 위치에 보낸다.
+
+```
+
+```
+
+
+
+### Radial hero animation
+
+radial hero animation은 타원형에서 사각형으로 모양을 바뀌게 보낸다.
+
+```
+
+```
+
+
+
+## 18. CustomPaint
+
